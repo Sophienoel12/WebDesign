@@ -7,7 +7,7 @@ margin: 0;
 padding: 0;
 }
 body {
-  background-color: #ffe6f0; / soft warm pink /
+  background-color: #fcd0e1; / soft warm pink /
   font-family: 'Poppins', 'Segoe UI', Tahoma, sans-serif;
   color: #2c0735;
   line-height: 1.6;
@@ -58,7 +58,7 @@ header p {
 
 / Cat Cards /
 section {
-  background: white;
+  background: rgb(234, 157, 225);
   border-radius: 20px;
   box-shadow: 0 8px 20px rgba(199, 46, 132, 0.15);
   padding: 25px 20px 30px;
