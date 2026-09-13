@@ -10,6 +10,6 @@ I feel more comfortable with HTML and CSS after practicing how to create multipl
 I would like more practice with creating layouts and making sure my pages look good on different screen sizes. I would also like to learn more about adding interactive features and improving accessibility.
 
 Assignment Links
-Hosted website: https://YOUR-USERNAME.github.io/WebDesign/Assignment2/
+Hosted website: https://Sophienoel12.github.io/WebDesign/Assignment2/
 
-GitHub folder: https://github.com/YOUR-USERNAME/WebDesign/tree/main/Assignment2
+GitHub folder: https://github.com/Sophienoel12/WebDesign/tree/main/Assignment2 
