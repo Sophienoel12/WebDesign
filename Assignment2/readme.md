@@ -1,5 +1,3 @@
-markdown
-
 Assignment 2: My Three Cats
 Project Description
 This website introduces my three cats, Honey, Maple, and Bennie. It includes multiple pages with a navigation menu, cat information, images, and a simple pink design.
