@@ -1,8 +1,13 @@
-Assignment 3: My Favorite Cats
-My Assignment 3 website continues my cat themed project featuring Honey, Maple, and Bennie. I kept the pink color scheme because pink is my favorite color and it gives the website a friendly and playful mood.
+Assignment 4: Cat Website
+This website is about my three favorite cats: Honey, Maple, and Bennie. 
+The website includes a home page, a Cat Info page, and a Components page. The Cat Info page includes a cat personality table and a photo gallery. The Components page includes reusable design elements, such as cat cards, icons, and a cat survey form.
 
-For this assignment, I used a hero component to group the main heading, introduction, image, quotation, and citation together. I also created a reusable cat-card component. The same class is used three times for Honey, Maple, and Bennie, which made it easier to give all three cards the same style. I placed the cards inside a cat-card-group so I could center and arrange them as a group.
+I used a pink color palette, Bree Serif for headings, and Nunito Sans for body text. I also created six original icons: a cat face, paw print, sun, compass, cushion, and heart. These icons are saved in the images folder along with the icon-set screenshot.
 
-Using components and classes helped me organize the webpage because I could style related content together instead of styling every element separately. The nested CSS selectors also helped me target specific elements inside the hero and cat cards.
+The site demonstrates alignment, line and shape, color and value, continuity, and pattern. I repeated the same colors, fonts, borders, spacing, and card styles throughout the pages to make the design feel connected.
 
-I would like more practice with responsive design and arranging components so they look good on different screen sizes. I also want to learn more about how CSS layout tools can make pages easier to organize.
+The cat survey form includes text fields, an email field, a dropdown menu, radio buttons, a checkbox, and a submit button. The cat personality table organizes information about each cat, while the photo gallery uses Flexbox to arrange the images and make them responsive.
+
+I hope to use Flexbox, responsive media queries, and CSS selectors in my design. Flexbox helps me organize the cat cards and photo gallery into neat rows while allowing the content to wrap on smaller screens. Media queries help the website remain easy to read on phones, tablets, and desktop computers. I also use IDs and classes to target specific components without affecting the rest of the page.
+
+The website was created with HTML5, CSS3, Flexbox, Google Fonts, GitHub Pages, and GitHub Desktop. 
