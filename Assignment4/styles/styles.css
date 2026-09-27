@@ -335,3 +335,18 @@ nav a {
     padding: 24px 18px;  
 }  
 }
+.cat-heading {
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.cat-icon {
+width: 45px;
+height: 45px;
+object-fit: contain;
+}
+
+.cat-heading h3 {
+margin: 0;
+}
