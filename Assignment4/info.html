@@ -1,43 +1,118 @@
-<!DOCTYPE
+html
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cat Information</title>
-<link rel="stylesheet" href="styles/styles.css">
+
+<title>Cat Info | My Favorite Cats</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">  
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles/styles.css">  
+
 </head>
 
 <body>
 <header>
-<h1>Cat Information</h1>
+<h1>Cat Info</h1>
 
-    <nav>  
+    <nav aria-label="Main navigation">  
         <a href="index.html">Home</a>  
         <a href="about.html">About</a>  
         <a href="info.html">Cat Info</a>  
+        <a href="components.html">Components</a>  
     </nav>  
 </header>
 
 <main>  
-    <div class="page-section">  
-        <h2>Fun Cat Facts</h2>
+    <section class="page-section">  
+        <h2>Learn More About Honey, Maple, and Bennie</h2>
 
         <p>  
-            Cats spend a lot of time grooming themselves. They also use sounds,  
-            body language, and movement to communicate.  
-        </p>
-
-        <p>  
-            A cat's purr can be calming to people, which is one reason cats  
-            make such comforting pets.  
-        </p>
-
-        <hr>
-
-        <p>  
-            <em>Every cat has its own personality, habits, and favorite things.</em>  
+            Every cat has a different personality. This page compares  
+            Honey, Maple, and Bennie and includes a small gallery of their  
+            favorite moments.  
         </p>  
-    </div>  
+    </section>
+
+    <section class="table-component" aria-labelledby="table-heading">  
+        <h2 id="table-heading">Cat Personality Guide</h2>
+
+        <table id="cat-table">  
+            <thead>  
+                <tr>  
+                    <th scope="col">Cat</th>  
+                    <th scope="col">Personality</th>  
+                    <th scope="col">Favorite Activity</th>  
+                </tr>  
+            </thead>
+
+            <tbody>  
+                <tr>  
+                    <td>Honey</td>  
+                    <td>Sweet and curious</td>  
+                    <td>Sitting somewhere warm</td>  
+                </tr>
+
+                <tr>  
+                    <td>Maple</td>  
+                    <td>Playful and adventurous</td>  
+                    <td>Exploring everything</td>  
+                </tr>
+
+                <tr>  
+                    <td>Bennie</td>  
+                    <td>Friendly and cuddly</td>  
+                    <td>Getting comfortable</td>  
+                </tr>  
+            </tbody>  
+        </table>  
+    </section>
+
+    <hr>
+
+    <section class="gallery-component" aria-labelledby="gallery-heading">  
+        <h2 id="gallery-heading">Cat Photo Gallery</h2>
+
+        <p class="gallery-introduction">  
+            A small collection of photos from Honey, Maple, and Bennie.  
+        </p>
+
+        <div id="gallery">  
+            <figure>  
+                <img src="images/honey1.JPG" alt="Honey relaxing">  
+                <figcaption>Honey</figcaption>  
+            </figure>
+
+            <figure>  
+                <img src="images/maple1.JPG" alt="Maple sitting">  
+                <figcaption>Maple</figcaption>  
+            </figure>
+
+            <figure>  
+                <img src="images/Bennie1.JPG" alt="Bennie resting">  
+                <figcaption>Bennie</figcaption>  
+            </figure>
+
+            <figure>  
+                <img src="images/honey.JPG" alt="Honey looking curious">  
+                <figcaption>Curious Honey</figcaption>  
+            </figure>
+
+            <figure>  
+                <img src="images/maple.JPG" alt="Maple looking alert">  
+                <figcaption>Adventurous Maple</figcaption>  
+            </figure>
+
+            <figure>  
+                <img src="images/Bennie.JPG" alt="Bennie looking comfortable">  
+                <figcaption>Cozy Bennie</figcaption>  
+            </figure>  
+        </div>  
+    </section>  
 </main>
 
 <footer>  
