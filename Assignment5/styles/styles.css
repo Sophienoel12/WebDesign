@@ -1,6 +1,6 @@
 css
 /* ------------------------------
-Color Palette and Reset
+Color Palette 
 ------------------------------ */
 
 :root {
@@ -29,12 +29,20 @@ box-sizing: border-box;
 General Page Styling
 ------------------------------ */
 
+html {
+scroll-behavior: smooth;
+}
+
 body {
 margin: 0;
 background-color: var(--cream);
 color: var(--dark-brown);
 font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
 line-height: 1.6;
+}
+
+img {
+max-width: 100%;
 }
 
 h1,
@@ -86,7 +94,7 @@ nav a:hover,
 nav a:focus {
 color: var(--dark-pink);
 background-color: var(--soft-pink);
-border-color: var(--soft-pink);
+border-color: var(--dark-pink);
 }
 
 /* ------------------------------
@@ -189,7 +197,7 @@ object-fit: contain;
 }
 
 /* ------------------------------
-Cat Card Group
+Cat Cards
 ------------------------------ */
 
 .cat-card-group {
@@ -201,10 +209,6 @@ width: 100%;
 margin: 25px auto;
 }
 
-/* ------------------------------
-Cat Cards
------------------------------- */
-
 .cat-card {
 flex: 1 1 300px;
 max-width: 370px;
@@ -215,9 +219,7 @@ background-color: var(--white);
 border: 2px solid var(--border-pink);
 border-radius: 14px;
 box-shadow: 0 5px 12px var(--shadow-pink);
-transition:
-transform 0.2s ease,
-box-shadow 0.2s ease;
+transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .cat-card:hover {
@@ -422,7 +424,8 @@ font-weight: 700;
 
 .form-v2 input[type="text"],
 .form-v2 input[type="email"],
-.form-v2 select {
+.form-v2 select,
+.form-v2 textarea {
 display: block;
 width: 100%;
 margin-top: 6px;
@@ -435,9 +438,15 @@ font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
 font-size: 1rem;
 }
 
+.form-v2 textarea {
+min-height: 120px;
+resize: vertical;
+}
+
 .form-v2 input[type="text"]:focus,
 .form-v2 input[type="email"]:focus,
-.form-v2 select:focus {
+.form-v2 select:focus,
+.form-v2 textarea:focus {
 border-color: var(--deep-rose);
 outline: 3px solid rgba(217, 111, 152, 0.25);
 }
@@ -491,9 +500,7 @@ font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
 font-size: 1rem;
 font-weight: 700;
 cursor: pointer;
-transition:
-background-color 0.2s ease,
-border-color 0.2s ease,
+transition: background-color 0.2s ease, border-color 0.2s ease,
 transform 0.2s ease;
 }
 
@@ -598,9 +605,7 @@ background-color: var(--white);
 border: 2px solid var(--border-pink);
 border-radius: 14px;
 box-shadow: 0 5px 12px var(--shadow-pink);
-transition:
-transform 0.2s ease,
-box-shadow 0.2s ease;
+transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 #gallery figure:hover {
