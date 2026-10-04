@@ -1,123 +1,434 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Cat Info | My Favorite Cats</title>
+    <title>Cat Info | My Favorite Cats</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">  
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
-<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link rel="stylesheet" href="styles/styles.css">  
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700;6..12,800&display=swap"
+        rel="stylesheet"
+    >
 
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 
-<body>
-<header>
-<h1>Cat Info</h1>
 
-    <nav aria-label="Main navigation">  
-        <a href="index.html">Home</a>  
-        <a href="about.html">About</a>  
-        <a href="info.html">Cat Info</a>  
-        <a href="components.html">Components</a>  
-    </nav>  
+<body>
+
+<header>
+
+    <div class="header-inner">
+
+        <div class="site-title">
+
+            <span class="paw-decoration">🐾</span>
+
+            <div>
+                <p class="small-title">A LITTLE CAT CORNER</p>
+                <h1>Cat Info</h1>
+            </div>
+
+        </div>
+
+
+        <nav aria-label="Main navigation">
+
+            <a href="index.html">Home</a>
+
+            <a href="about.html">About</a>
+
+            <a class="active" href="info.html">Cat Info</a>
+
+            <a href="components.html">Components</a>
+
+        </nav>
+
+    </div>
+
 </header>
 
-<main>  
-    <section class="page-section">  
-        <h2>Learn More About Honey, Maple, and Bennie</h2>
 
-        <p>  
-            Every cat has a different personality. This page compares  
-            Honey, Maple, and Bennie and includes a small gallery of their  
-            favorite moments.  
-        </p>  
+<main>
+
+
+    <!-- INTRO -->
+
+    <section class="info-hero">
+
+        <div class="info-hero-text">
+
+            <p class="section-label">
+                GET TO KNOW THEM
+            </p>
+
+            <h2>
+                The Cats Behind
+                <span>the Cuteness ♡</span>
+            </h2>
+
+            <p>
+                Every cat has a different personality. This page compares
+                Honey, Maple, and Bennie and includes a small gallery of their
+                favorite moments.
+            </p>
+
+        </div>
+
+
+        <div class="info-hero-decoration">
+
+            <span>🐱</span>
+
+            <p>
+                3 cats<br>
+                3 personalities<br>
+                endless love
+            </p>
+
+        </div>
+
     </section>
 
-    <section class="table-component" aria-labelledby="table-heading">  
-        <h2 id="table-heading">Cat Personality Guide</h2>
 
-        <table id="cat-table">  
-            <thead>  
-                <tr>  
-                    <th scope="col">Cat</th>  
-                    <th scope="col">Personality</th>  
-                    <th scope="col">Favorite Activity</th>  
-                </tr>  
-            </thead>
+    <!-- PERSONALITY TABLE -->
 
-            <tbody>  
-                <tr>  
-                    <td>Honey</td>  
-                    <td>Sweet and curious</td>  
-                    <td>Sitting somewhere warm</td>  
-                </tr>
+    <section
+        class="table-component"
+        aria-labelledby="table-heading"
+    >
 
-                <tr>  
-                    <td>Maple</td>  
-                    <td>Playful and adventurous</td>  
-                    <td>Exploring everything</td>  
-                </tr>
+        <div class="section-heading">
 
-                <tr>  
-                    <td>Bennie</td>  
-                    <td>Friendly and cuddly</td>  
-                    <td>Getting comfortable</td>  
-                </tr>  
-            </tbody>  
-        </table>  
+            <p class="section-label">
+                A QUICK COMPARISON
+            </p>
+
+            <h2 id="table-heading">
+                Cat Personality Guide
+                <span>✦</span>
+            </h2>
+
+            <p>
+                A little look at what makes each cat unique.
+            </p>
+
+        </div>
+
+
+        <div class="table-wrapper">
+
+            <table id="cat-table">
+
+                <thead>
+
+                    <tr>
+
+                        <th scope="col">Cat</th>
+
+                        <th scope="col">Personality</th>
+
+                        <th scope="col">Favorite Activity</th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody>
+
+                    <tr>
+
+                        <td>
+                            <strong>☀ Honey</strong>
+                        </td>
+
+                        <td>
+                            Sweet and curious
+                        </td>
+
+                        <td>
+                            Sitting somewhere warm
+                        </td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>
+                            <strong>✦ Maple</strong>
+                        </td>
+
+                        <td>
+                            Playful and adventurous
+                        </td>
+
+                        <td>
+                            Exploring everything
+                        </td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>
+                            <strong>♡ Bennie</strong>
+                        </td>
+
+                        <td>
+                            Friendly and cuddly
+                        </td>
+
+                        <td>
+                            Getting comfortable
+                        </td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
     </section>
 
-    <hr>
 
-    <section class="gallery-component" aria-labelledby="gallery-heading">  
-        <h2 id="gallery-heading">Cat Photo Gallery</h2>
+    <!-- GALLERY -->
 
-        <p class="gallery-introduction">  
-            A small collection of photos from Honey, Maple, and Bennie.  
+    <section
+        class="gallery-component"
+        aria-labelledby="gallery-heading"
+    >
+
+        <div class="section-heading">
+
+            <p class="section-label">
+                LITTLE MOMENTS
+            </p>
+
+            <h2 id="gallery-heading">
+                Cat Photo Gallery
+                <span>♡</span>
+            </h2>
+
+            <p class="gallery-introduction">
+                A small collection of photos from Honey, Maple, and Bennie.
+            </p>
+
+        </div>
+
+
+        <div id="gallery">
+
+
+            <!-- HONEY -->
+
+            <figure>
+
+                <div class="gallery-image">
+
+                    <img
+                        src="images/honey1.JPG"
+                        alt="Honey relaxing"
+                    >
+
+                    <span>☀</span>
+
+                </div>
+
+                <figcaption>
+
+                    <strong>Honey</strong>
+
+                    <small>Sweet & curious</small>
+
+                </figcaption>
+
+            </figure>
+
+
+            <!-- MAPLE -->
+
+            <figure>
+
+                <div class="gallery-image">
+
+                    <img
+                        src="images/maple1.JPG"
+                        alt="Maple sitting"
+                    >
+
+                    <span>✦</span>
+
+                </div>
+
+                <figcaption>
+
+                    <strong>Maple</strong>
+
+                    <small>Playful & adventurous</small>
+
+                </figcaption>
+
+            </figure>
+
+
+            <!-- BENNIE -->
+
+            <figure>
+
+                <div class="gallery-image">
+
+                    <img
+                        src="images/Bennie1.JPG"
+                        alt="Bennie resting"
+                    >
+
+                    <span>♡</span>
+
+                </div>
+
+                <figcaption>
+
+                    <strong>Bennie</strong>
+
+                    <small>Friendly & cuddly</small>
+
+                </figcaption>
+
+            </figure>
+
+
+            <!-- HONEY -->
+
+            <figure>
+
+                <div class="gallery-image">
+
+                    <img
+                        src="images/honey.JPG"
+                        alt="Honey looking curious"
+                    >
+
+                    <span>☀</span>
+
+                </div>
+
+                <figcaption>
+
+                    <strong>Curious Honey</strong>
+
+                    <small>Always investigating</small>
+
+                </figcaption>
+
+            </figure>
+
+
+            <!-- MAPLE -->
+
+            <figure>
+
+                <div class="gallery-image">
+
+                    <img
+                        src="images/maple.JPG"
+                        alt="Maple looking alert"
+                    >
+
+                    <span>✦</span>
+
+                </div>
+
+                <figcaption>
+
+                    <strong>Adventurous Maple</strong>
+
+                    <small>Ready for anything</small>
+
+                </figcaption>
+
+            </figure>
+
+
+            <!-- BENNIE -->
+
+            <figure>
+
+                <div class="gallery-image">
+
+                    <img
+                        src="images/Bennie.JPG"
+                        alt="Bennie looking comfortable"
+                    >
+
+                    <span>♡</span>
+
+                </div>
+
+                <figcaption>
+
+                    <strong>Cozy Bennie</strong>
+
+                    <small>Professional lounger</small>
+
+                </figcaption>
+
+            </figure>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- BOTTOM MESSAGE -->
+
+    <section class="info-ending">
+
+        <span>🐾</span>
+
+        <h2>
+            Every cat has a story.
+        </h2>
+
+        <p>
+            These are just a few of the little things that make
+            Honey, Maple, and Bennie so special.
         </p>
 
-        <div id="gallery">  
-            <figure>  
-                <img src="images/honey1.JPG" alt="Honey relaxing">  
-                <figcaption>Honey</figcaption>  
-            </figure>
+        <a href="index.html">
+            Meet the Cats Again ♡
+        </a>
 
-            <figure>  
-                <img src="images/maple1.JPG" alt="Maple sitting">  
-                <figcaption>Maple</figcaption>  
-            </figure>
+    </section>
 
-            <figure>  
-                <img src="images/Bennie1.JPG" alt="Bennie resting">  
-                <figcaption>Bennie</figcaption>  
-            </figure>
 
-            <figure>  
-                <img src="images/honey.JPG" alt="Honey looking curious">  
-                <figcaption>Curious Honey</figcaption>  
-            </figure>
-
-            <figure>  
-                <img src="images/maple.JPG" alt="Maple looking alert">  
-                <figcaption>Adventurous Maple</figcaption>  
-            </figure>
-
-            <figure>  
-                <img src="images/Bennie.JPG" alt="Bennie looking comfortable">  
-                <figcaption>Cozy Bennie</figcaption>  
-            </figure>  
-        </div>  
-    </section>  
 </main>
 
-<footer>  
-    <p>Created with love for cats</p>  
-    <p>&copy; 2026 Sophie Guilliams. All rights reserved.</p>  
-</footer>  
+
+<footer>
+
+    <div class="footer-paw">🐾</div>
+
+    <p class="footer-title">
+        Created with love for cats ♡
+    </p>
+
+    <p>
+        &copy; 2026 Sophie Guilliams. All rights reserved.
+    </p>
+
+</footer>
+
 
 </body>
 </html>
