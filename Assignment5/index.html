@@ -6,242 +6,502 @@
 
 <title>My Favorite Cats</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">  
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
-<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link rel="stylesheet" href="styles/styles.css">  
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700;6..12;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles/styles.css">
 
 </head>
 
 <body>
-<header>
-<h1>My Favorite Cats</h1>
 
-    <nav aria-label="Main navigation">  
-        <a href="index.html">Home</a>  
-        <a href="about.html">About</a>  
-        <a href="info.html">Cat Info</a>  
-    </nav>  
+<header>
+
+    <div class="header-inner">
+
+        <div class="site-title">
+            <span class="paw-decoration">🐾</span>
+
+            <div>
+                <p class="small-title">A LITTLE CAT CORNER</p>
+                <h1>My Favorite Cats</h1>
+            </div>
+        </div>
+
+        <nav aria-label="Main navigation">
+            <a class="active" href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="info.html">Cat Info</a>
+        </nav>
+
+    </div>
+
 </header>
 
-<main>  
+
+<main>
+
     <!-- Hero section -->
 
-    <section class="hero">  
-        <h2>Welcome to My Cat Page!</h2>
+    <section class="hero">
 
-        <p>  
-            I love cats, and this website is about my three favorite cats:  
-            <strong>Honey, Maple, and Bennie</strong>.  
-            They each have their own personality and make my life happier.  
-        </p>
+        <div class="hero-content">
 
-        <img src="images/honey.JPG" alt="Honey the cat">
+            <p class="hero-label">♡ WELCOME, CAT LOVERS ♡</p>
 
-        <blockquote>  
-            “Time spent with cats is never wasted.”  
-        </blockquote>
+            <h2>
+                Welcome to
+                <span>My Cat Page!</span>
+            </h2>
 
-        <cite>Sigmund Freud</cite>  
+            <p class="hero-description">
+                I love cats, and this website is about my three favorite cats:
+                <strong>Honey, Maple, and Bennie</strong>.
+                They each have their own personality and make my life happier.
+            </p>
+
+            <div class="cat-names">
+                <span>☀ Honey</span>
+                <span>✦ Maple</span>
+                <span>♡ Bennie</span>
+            </div>
+
+        </div>
+
+
+        <div class="hero-image">
+
+            <span class="floating-heart">♡</span>
+
+            <img
+                src="images/honey.JPG"
+                alt="Honey the cat"
+            >
+
+            <div class="image-caption">
+                <strong>Honey</strong>
+                <span>Professional cuddle expert ♡</span>
+            </div>
+
+        </div>
+
     </section>
 
-    <hr>
+
+    <!-- Quote -->
+
+    <section class="quote">
+
+        <div class="quote-symbol">“</div>
+
+        <blockquote>
+            “Time spent with cats is never wasted.”
+        </blockquote>
+
+        <cite>— Sigmund Freud</cite>
+
+    </section>
+
 
     <!-- Cat cards -->
 
-    <section aria-labelledby="cats-heading">  
-        <h2 id="cats-heading" class="section-heading">  
-            <img  
-                class="heading-icon"  
-                src="images/paw-print.png"  
-                alt=""  
-                aria-hidden="true"  
-            >  
-            Meet the Cats  
-        </h2>
+    <section class="cats-section" aria-labelledby="cats-heading">
 
-        <div class="cat-card-group">  
-            <article class="cat-card">  
-                <div class="cat-heading">  
-                    <img  
-                        class="cat-icon"  
-                        src="images/sun.png"  
-                        alt=""  
-                        aria-hidden="true"  
-                    >  
-                    <h3>Honey</h3>  
+        <div class="section-heading">
+
+            <p class="section-label">MEET THE MAIN CHARACTERS</p>
+
+            <h2 id="cats-heading">
+                <img
+                    class="heading-icon"
+                    src="images/paw-print.png"
+                    alt=""
+                    aria-hidden="true"
+                >
+                Meet the Cats
+                <span>♡</span>
+            </h2>
+
+            <p>
+                Three cats, three personalities, and lots of love.
+            </p>
+
+        </div>
+
+
+        <div class="cat-card-group">
+
+
+            <!-- Honey -->
+
+            <article class="cat-card">
+
+                <div class="card-number">01</div>
+
+                <div class="cat-image-container">
+
+                    <img
+                        src="images/honey.JPG"
+                        alt="Honey the cat"
+                    >
+
+                    <span class="personality-badge">
+                        ☀ SWEET
+                    </span>
+
                 </div>
 
-                <img src="images/honey.JPG" alt="Honey the cat">
+                <div class="cat-card-content">
 
-                <p>  
-                    Honey is sweet, curious, and always ready for attention.  
-                </p>
+                    <div class="cat-heading">
 
-                <p>  
-                    <em>Favorite activity: Sitting somewhere warm.</em>  
-                </p>  
+                        <img
+                            class="cat-icon"
+                            src="images/sun.png"
+                            alt=""
+                            aria-hidden="true"
+                        >
+
+                        <div>
+                            <p class="cat-label">THE SUNSHINE CAT</p>
+                            <h3>Honey</h3>
+                        </div>
+
+                    </div>
+
+                    <p>
+                        Honey is sweet, curious, and always ready for attention.
+                    </p>
+
+                    <p class="favorite">
+                        <strong>♡ Favorite activity</strong>
+                        <em>Sitting somewhere warm.</em>
+                    </p>
+
+                </div>
+
             </article>
 
-            <article class="cat-card">  
-                <div class="cat-heading">  
-                    <img  
-                        class="cat-icon"  
-                        src="images/compass.png"  
-                        alt=""  
-                        aria-hidden="true"  
-                    >  
-                    <h3>Maple</h3>  
+
+            <!-- Maple -->
+
+            <article class="cat-card">
+
+                <div class="card-number">02</div>
+
+                <div class="cat-image-container">
+
+                    <img
+                        src="images/maple.JPG"
+                        alt="Maple the cat"
+                    >
+
+                    <span class="personality-badge">
+                        ✦ PLAYFUL
+                    </span>
+
                 </div>
 
-                <img src="images/maple.JPG" alt="Maple the cat">
+                <div class="cat-card-content">
 
-                <p>  
-                    Maple is playful and has a lot of personality.  
-                </p>
+                    <div class="cat-heading">
 
-                <p>  
-                    <em>Favorite activity: Exploring everything.</em>  
-                </p>  
+                        <img
+                            class="cat-icon"
+                            src="images/compass.png"
+                            alt=""
+                            aria-hidden="true"
+                        >
+
+                        <div>
+                            <p class="cat-label">THE ADVENTURER</p>
+                            <h3>Maple</h3>
+                        </div>
+
+                    </div>
+
+                    <p>
+                        Maple is playful and has a lot of personality.
+                    </p>
+
+                    <p class="favorite">
+                        <strong>♡ Favorite activity</strong>
+                        <em>Exploring everything.</em>
+                    </p>
+
+                </div>
+
             </article>
 
-            <article class="cat-card">  
-                <div class="cat-heading">  
-                    <img  
-                        class="cat-icon"  
-                        src="images/heart.png"  
-                        alt=""  
-                        aria-hidden="true"  
-                    >  
-                    <h3>Bennie</h3>  
+
+            <!-- Bennie -->
+
+            <article class="cat-card">
+
+                <div class="card-number">03</div>
+
+                <div class="cat-image-container">
+
+                    <img
+                        src="images/Bennie.JPG"
+                        alt="Bennie the cat"
+                    >
+
+                    <span class="personality-badge">
+                        ♡ CUDDLY
+                    </span>
+
                 </div>
 
-                <img src="images/Bennie.JPG" alt="Bennie the cat">
+                <div class="cat-card-content">
 
-                <p>  
-                    Bennie is friendly, cuddly, and loves being around people.  
-                </p>
+                    <div class="cat-heading">
 
-                <p>  
-                    <em>Favorite activity: Getting comfortable.</em>  
-                </p>  
-            </article>  
-        </div>  
+                        <img
+                            class="cat-icon"
+                            src="images/heart.png"
+                            alt=""
+                            aria-hidden="true"
+                        >
+
+                        <div>
+                            <p class="cat-label">THE CUDDLE BUG</p>
+                            <h3>Bennie</h3>
+                        </div>
+
+                    </div>
+
+                    <p>
+                        Bennie is friendly, cuddly, and loves being around people.
+                    </p>
+
+                    <p class="favorite">
+                        <strong>♡ Favorite activity</strong>
+                        <em>Getting comfortable.</em>
+                    </p>
+
+                </div>
+
+            </article>
+
+        </div>
+
     </section>
 
-    <hr>
 
     <!-- Cat survey form -->
 
-    <section class="form-component" aria-labelledby="form-heading">  
-        <h2 id="form-heading">Cat Survey</h2>
+    <section class="form-component" aria-labelledby="form-heading">
 
-        <p class="form-introduction">  
-            Tell us a little about your cat and which featured cat would  
-            make the best friend.  
-        </p>
+        <div class="form-heading">
 
-        <form class="form-v2" action="#" method="post">  
-            <fieldset>  
+            <p class="section-label">JOIN THE CAT CLUB</p>
+
+            <h2 id="form-heading">
+                Cat Survey
+                <span>♡</span>
+            </h2>
+
+            <p class="form-introduction">
+                Tell us a little about your cat and which featured cat would
+                make the best friend.
+            </p>
+
+        </div>
+
+
+        <form class="form-v2" action="#" method="post">
+
+            <fieldset>
+
                 <legend>Tell Us About Your Cat</legend>
 
-                <p class="form-instructions">  
-                    Required fields are marked with an asterisk (*).  
+                <p class="form-instructions">
+                    Required fields are marked with an asterisk (*).
                 </p>
 
-                <label for="visitor-name">Your Name *</label>  
-                <input  
-                    type="text"  
-                    id="visitor-name"  
-                    name="visitor-name"  
-                    placeholder="e.g. Sophie Guilliams"  
-                    autocomplete="name"  
-                    required  
-                >
 
-                <label for="visitor-email">Email Address *</label>  
-                <input  
-                    type="email"  
-                    id="visitor-email"  
-                    name="visitor-email"  
-                    placeholder="e.g. sophie@example.com"  
-                    autocomplete="email"  
-                    required  
-                >
+                <div class="form-grid">
 
-                <label for="cat-name">Your Cat's Name *</label>  
-                <input  
-                    type="text"  
-                    id="cat-name"  
-                    name="cat-name"  
-                    placeholder="Type your cat's name"  
-                    required  
-                >
+                    <div class="form-field">
 
-                <label for="featured-cat">  
-                    Which featured cat would be your cat's best friend?  
-                </label>
+                        <label for="visitor-name">
+                            Your Name *
+                        </label>
 
-                <select id="featured-cat" name="featured-cat">  
-                    <option value="">Choose a cat</option>  
-                    <option value="honey">Honey</option>  
-                    <option value="maple">Maple</option>  
-                    <option value="bennie">Bennie</option>  
-                </select>
+                        <input
+                            type="text"
+                            id="visitor-name"
+                            name="visitor-name"
+                            placeholder="e.g. Sophie Guilliams"
+                            autocomplete="name"
+                            required
+                        >
 
-                <fieldset class="choice-group">  
-                    <legend>  
-                        Which personality best describes your cat?  
+                    </div>
+
+
+                    <div class="form-field">
+
+                        <label for="visitor-email">
+                            Email Address *
+                        </label>
+
+                        <input
+                            type="email"
+                            id="visitor-email"
+                            name="visitor-email"
+                            placeholder="e.g. sophie@example.com"
+                            autocomplete="email"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-field">
+
+                        <label for="cat-name">
+                            Your Cat's Name *
+                        </label>
+
+                        <input
+                            type="text"
+                            id="cat-name"
+                            name="cat-name"
+                            placeholder="Type your cat's name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-field">
+
+                        <label for="featured-cat">
+                            Which featured cat would be your cat's best friend?
+                        </label>
+
+                        <select id="featured-cat" name="featured-cat">
+
+                            <option value="">
+                                Choose a cat
+                            </option>
+
+                            <option value="honey">
+                                Honey
+                            </option>
+
+                            <option value="maple">
+                                Maple
+                            </option>
+
+                            <option value="bennie">
+                                Bennie
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+                <fieldset class="choice-group">
+
+                    <legend>
+                        Which personality best describes your cat?
                     </legend>
 
-                    <label class="choice-label">  
-                        <input  
-                            type="radio"  
-                            name="cat-personality"  
-                            value="sunny"  
-                        >  
-                        Sunny and affectionate  
-                    </label>
+                    <div class="personality-options">
 
-                    <label class="choice-label">  
-                        <input  
-                            type="radio"  
-                            name="cat-personality"  
-                            value="adventurous"  
-                        >  
-                        Curious and adventurous  
-                    </label>
+                        <label class="choice-label">
 
-                    <label class="choice-label">  
-                        <input  
-                            type="radio"  
-                            name="cat-personality"  
-                            value="cozy"  
-                        >  
-                        Calm and cozy  
-                    </label>  
+                            <input
+                                type="radio"
+                                name="cat-personality"
+                                value="sunny"
+                            >
+
+                            <span>☀</span>
+                            Sunny and affectionate
+
+                        </label>
+
+
+                        <label class="choice-label">
+
+                            <input
+                                type="radio"
+                                name="cat-personality"
+                                value="adventurous"
+                            >
+
+                            <span>✦</span>
+                            Curious and adventurous
+
+                        </label>
+
+
+                        <label class="choice-label">
+
+                            <input
+                                type="radio"
+                                name="cat-personality"
+                                value="cozy"
+                            >
+
+                            <span>♡</span>
+                            Calm and cozy
+
+                        </label>
+
+                    </div>
+
                 </fieldset>
 
-                <label class="choice-label newsletter-option">  
-                    <input  
-                        type="checkbox"  
-                        name="cat-updates"  
-                        value="yes"  
-                    >  
-                    Send me occasional updates about Honey, Maple, and Bennie  
+
+                <label class="choice-label newsletter-option">
+
+                    <input
+                        type="checkbox"
+                        name="cat-updates"
+                        value="yes"
+                    >
+
+                    Send me occasional updates about Honey, Maple, and Bennie
+
                 </label>
 
-                <button type="submit">Share Your Cat</button>  
-            </fieldset>  
-        </form>  
-    </section>  
+
+                <button type="submit">
+                    Share Your Cat ♡
+                </button>
+
+            </fieldset>
+
+        </form>
+
+    </section>
+
 </main>
 
-<footer>  
-    <p>Created with love for cats</p>  
-    <p>&copy; 2026 Sophie Guilliams. All rights reserved.</p>  
-</footer>  
+
+<footer>
+
+    <div class="footer-paw">🐾</div>
+
+    <p class="footer-title">
+        Created with love for cats ♡
+    </p>
+
+    <p>
+        &copy; 2026 Sophie Guilliams. All rights reserved.
+    </p>
+
+</footer>
 
 </body>
 </html>
