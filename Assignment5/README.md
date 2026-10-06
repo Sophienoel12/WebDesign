@@ -1,8 +1,6 @@
-markdown
-
-
 Assignment 5
 New Component Plan
+
 For my new component, I plan to create a responsive cat information card using CSS Grid. Each card will include a cat photo, name, short description, favorite activity, and an icon.
 
 The cards will be arranged in columns on larger screens and change to one column on smaller screens. This will make the information easier to read on phones and tablets.
@@ -16,6 +14,7 @@ I included screenshots of the final levels in the images folder:
 
 flexbox-froggy.png
 grid-garden.png
+
 Weekly Reflection
 What did you create or organize this week that will be most useful in future websites?
 The ComponentLibrary will be the most useful because it gives me a place to save reusable elements. I can keep my cards, buttons, forms, navigation bars, tables, and galleries there instead of starting from scratch every time.
