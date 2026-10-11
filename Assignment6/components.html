@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Cat Website Components</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">  
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles/styles.css">  
+
+</head>
+
+<body>
+<header>
+<h1>Cat Website Components</h1>
+
+    <nav aria-label="Main navigation">  
+        <a href="index.html">Home</a>  
+        <a href="about.html">About</a>  
+        <a href="info.html">Cat Info</a>  
+        <a href="components.html">Components</a>  
+    </nav>  
+</header>
+
+<main>  
+    <!-- ======================================  
+         ICON COMPONENTS  
+    ======================================= -->
+
+    <section class="page-section" aria-labelledby="icons-heading">  
+        <h2 id="icons-heading">Icon Components</h2>
+
+        <p>  
+            These six reusable icons were created for the cat website.  
+        </p>
+
+        <div class="component-icons">  
+            <figure>  
+                <img src="images/cat-face.png" alt="Cat face icon">  
+                <figcaption>Cat Face</figcaption>  
+            </figure>
+
+            <figure>  
+                <img src="images/paw-print.png" alt="Paw print icon">  
+                <figcaption>Paw Print</figcaption>  
+            </figure>
+
+            <figure>  
+                <img src="images/sun.png" alt="Sun icon">  
+                <figcaption>Sun</figcaption>  
+            </figure>
+
+            <figure>  
+                <img src="images/compass.png" alt="Compass icon">  
+                <figcaption>Compass</figcaption>  
+            </figure>
+
+            <figure>  
+                <img src="images/cushion.png" alt="Cushion icon">  
+                <figcaption>Cushion</figcaption>  
+            </figure>
+
+            <figure>  
+                <img src="images/heart.png" alt="Heart icon">  
+                <figcaption>Heart</figcaption>  
+            </figure>  
+        </div>  
+    </section>
+
+    <hr>
+
+    <!-- ======================================  
+         CAT CARD COMPONENTS  
+    ======================================= -->
+
+    <section aria-labelledby="cards-heading">  
+        <h2 id="cards-heading" class="section-heading">  
+            <img  
+                class="heading-icon"  
+                src="images/paw-print.png"  
+                alt=""  
+                aria-hidden="true"  
+            >  
+            Meet the Cats  
+        </h2>
+
+        <div class="cat-card-group">  
+            <article class="cat-card">  
+                <div class="cat-heading">  
+                    <img  
+                        class="cat-icon"  
+                        src="images/sun.png"  
+                        alt=""  
+                        aria-hidden="true"  
+                    >  
+                    <h3>Honey</h3>  
+                </div>
+
+                <img src="images/honey.JPG" alt="Honey the cat">
+
+                <p>  
+                    Honey is sweet, curious, and always ready for attention.  
+                </p>
+
+                <p>  
+                    <em>Favorite activity: Sitting somewhere warm.</em>  
+                </p>  
+            </article>
+
+            <article class="cat-card">  
+                <div class="cat-heading">  
+                    <img  
+                        class="cat-icon"  
+                        src="images/compass.png"  
+                        alt=""  
+                        aria-hidden="true"  
+                    >  
+                    <h3>Maple</h3>  
+                </div>
+
+                <img src="images/maple.JPG" alt="Maple the cat">
+
+                <p>  
+                    Maple is playful and has a lot of personality.  
+                </p>
+
+                <p>  
+                    <em>Favorite activity: Exploring everything.</em>  
+                </p>  
+            </article>
+
+            <article class="cat-card">  
+                <div class="cat-heading">  
+                    <img  
+                        class="cat-icon"  
+                        src="images/heart.png"  
+                        alt=""  
+                        aria-hidden="true"  
+                    >  
+                    <h3>Bennie</h3>  
+                </div>
+
+                <img src="images/Bennie.JPG" alt="Bennie the cat">
+
+                <p>  
+                    Bennie is friendly, cuddly, and loves being around people.  
+                </p>
+
+                <p>  
+                    <em>Favorite activity: Getting comfortable.</em>  
+                </p>  
+            </article>  
+        </div>  
+    </section>
+
+    <hr>
+html
+<hr>
+
+<section class="responsive-component" aria-labelledby="responsive-heading">
+<h2 id="responsive-heading">Responsive Cat Cards</h2>
+
+<p>  
+    This reusable component uses CSS Grid to display cat information.  
+    The cards appear in multiple columns on larger screens and stack  
+    vertically on smaller screens.  
+</p>
+
+<div class="responsive-cat-grid">  
+    <article class="responsive-cat-card">  
+        <img src="images/honey.JPG" alt="Honey the cat">  
+        <div>  
+            <h3>Honey</h3>  
+            <p>Sweet, curious, and always looking for a warm place to sit.</p>  
+        </div>  
+    </article>
+
+    <article class="responsive-cat-card">  
+        <img src="images/maple.JPG" alt="Maple the cat">  
+        <div>  
+            <h3>Maple</h3>  
+            <p>Playful, adventurous, and ready to explore everything.</p>  
+        </div>  
+    </article>
+
+    <article class="responsive-cat-card">  
+        <img src="images/Bennie.JPG" alt="Bennie the cat">  
+        <div>  
+            <h3>Bennie</h3>  
+            <p>Friendly, cuddly, and happiest when getting comfortable.</p>  
+        </div>  
+    </article>  
+</div>  
+
+</section>
+    <!-- ======================================  
+         CAT INFORMATION TABLE  
+    ======================================= -->
+
+    <section class="table-component" aria-labelledby="table-heading">  
+        <h2 id="table-heading">Cat Personality Guide</h2>
+
+        <table id="cat-table">  
+            <thead>  
+                <tr>  
+                    <th scope="col">Cat</th>  
+                    <th scope="col">Personality</th>  
+                    <th scope="col">Favorite Activity</th>  
+                </tr>  
+            </thead>
+
+            <tbody>  
+                <tr>  
+                    <td>Honey</td>  
+                    <td>Sweet and curious</td>  
+                    <td>Sitting somewhere warm</td>  
+                </tr>
+
+                <tr>  
+                    <td>Maple</td>  
+                    <td>Playful and adventurous</td>  
+                    <td>Exploring everything</td>  
+                </tr>
+
+                <tr>  
+                    <td>Bennie</td>  
+                    <td>Friendly and cuddly</td>  
+                    <td>Getting comfortable</td>  
+                </tr>  
+            </tbody>  
+        </table>  
+    </section>
+
+    <hr>
+
+    <!-- ======================================  
+         CAT PHOTO GALLERY  
+    ======================================= -->
+
+    <section class="gallery-component" aria-labelledby="gallery-heading">  
+        <h2 id="gallery-heading">Cat Photo Gallery</h2>
+
+        <p class="gallery-introduction">  
+            A small collection of photos from Honey, Maple, and Bennie.  
+        </p>
+
+        <div id="gallery">  
+            <figure>  
+                <img src="images/honey.JPG" alt="Honey relaxing">  
+                <figcaption>Honey</figcaption>  
+            </figure>
+
+            <figure>  
+                <img src="images/maple.JPG" alt="Maple sitting">  
+                <figcaption>Maple</figcaption>  
+            </figure>
+
+            <figure>  
+                <img src="images/Bennie.JPG" alt="Bennie resting">  
+                <figcaption>Bennie</figcaption>  
+            </figure>
+
+            <figure>  
+                <img src="images/honey.JPG" alt="Honey looking curious">  
+                <figcaption>Curious Honey</figcaption>  
+            </figure>
+
+            <figure>  
+                <img src="images/maple.JPG" alt="Maple looking alert">  
+                <figcaption>Adventurous Maple</figcaption>  
+            </figure>
+
+            <figure>  
+                <img src="images/Bennie.JPG" alt="Bennie looking comfortable">  
+                <figcaption>Cozy Bennie</figcaption>  
+            </figure>  
+        </div>  
+    </section>
+
+    <hr>
+
+    <!-- ======================================  
+         CAT SURVEY FORM  
+    ======================================= -->
+
+    <section class="form-component" aria-labelledby="form-heading">  
+        <h2 id="form-heading">Cat Survey Form</h2>
+
+        <p class="form-introduction">  
+            Tell us a little about your cat and which featured cat would  
+            make the best friend.  
+        </p>
+
+        <form class="form-v2" action="#" method="post">  
+            <fieldset>  
+                <legend>Tell Us About Your Cat</legend>
+
+                <p class="form-instructions">  
+                    Required fields are marked with an asterisk (*).  
+                </p>
+
+                <label for="visitor-name">Your Name *</label>  
+                <input  
+                    type="text"  
+                    id="visitor-name"  
+                    name="visitor-name"  
+                    placeholder="e.g. Sophie Guilliams"  
+                    autocomplete="name"  
+                    required  
+                >
+
+                <label for="visitor-email">Email Address *</label>  
+                <input  
+                    type="email"  
+                    id="visitor-email"  
+                    name="visitor-email"  
+                    placeholder="e.g. sophie@example.com"  
+                    autocomplete="email"  
+                    required  
+                >
+
+                <label for="cat-name">Your Cat's Name *</label>  
+                <input  
+                    type="text"  
+                    id="cat-name"  
+                    name="cat-name"  
+                    placeholder="Type your cat's name"  
+                    required  
+                >
+
+                <label for="featured-cat">  
+                    Which featured cat would be your cat's best friend?  
+                </label>
+
+                <select id="featured-cat" name="featured-cat">  
+                    <option value="">Choose a cat</option>  
+                    <option value="honey">Honey</option>  
+                    <option value="maple">Maple</option>  
+                    <option value="bennie">Bennie</option>  
+                </select>
+
+                <fieldset class="choice-group">  
+                    <legend>  
+                        Which personality best describes your cat?  
+                    </legend>
+
+                    <label class="choice-label">  
+                        <input  
+                            type="radio"  
+                            name="cat-personality"  
+                            value="sunny"  
+                        >  
+                        Sunny and affectionate  
+                    </label>
+
+                    <label class="choice-label">  
+                        <input  
+                            type="radio"  
+                            name="cat-personality"  
+                            value="adventurous"  
+                        >  
+                        Curious and adventurous  
+                    </label>
+
+                    <label class="choice-label">  
+                        <input  
+                            type="radio"  
+                            name="cat-personality"  
+                            value="cozy"  
+                        >  
+                        Calm and cozy  
+                    </label>  
+                </fieldset>
+
+                <label class="choice-label newsletter-option">  
+                    <input  
+                        type="checkbox"  
+                        name="cat-updates"  
+                        value="yes"  
+                    >  
+                    Send me occasional updates about Honey, Maple, and Bennie  
+                </label>
+
+                <button type="submit">Share Your Cat</button>  
+            </fieldset>  
+        </form>  
+    </section>  
+</main>
+
+<footer>  
+    <p>Created with love for cats</p>  
+    <p>&copy; 2026 Sophie Guilliams. All rights reserved.</p>  
+</footer>  
+
+</body>
+</html>
