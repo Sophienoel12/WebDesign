@@ -1,4 +1,10 @@
 Assignment 6: Responsive Cat Information Cards
+
+Plans for the Final Project
+Yes, I plan to continue developing this website for my final project later in the semester. It is meaningful to me because it tells the story of my three cats, Honey, Maple, and Bennie.
+
+When I return to the site, I want to remember three things. First, I want to add more personal stories and information about each cat. Second, I want to test the responsive layout on different screen sizes and make sure the navigation, cards, images, and form are easy to use. Third, I want to keep the design consistent by reusing the same colors, fonts, spacing, and card styles across every page. I may also add more photos and improve accessibility as I continue working on the site.
+
 Project Overview
 For Assignment 6, I created a responsive cat information card component using CSS Grid. Each card includes a cat photo, name, short description, favorite activity, and an icon.
 
