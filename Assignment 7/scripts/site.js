@@ -1,0 +1,17 @@
+(function(){
+ const all=window.SAMPLE_ACTIVITIES||[];
+ const label=(value)=>String(value).replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+ function card(a){return `<article class="activity-card"><div class="card-art" data-theme="${a.theme}" aria-hidden="true"><span>${a.icon}</span></div><div class="card-body"><span class="tag">${label(a.category)}</span><h3>${label(a.name)}</h3><p>${label(a.teaser)}</p><div class="meta"><span class="pill">${label(a.costLabel)}</span><span class="pill">Sample listing</span></div><a class="card-link" href="activity.html?id=${encodeURIComponent(a.id)}">View activity details →</a></div></article>`}
+ const featured=document.getElementById('featured-activities');
+ if(featured)featured.innerHTML=all.filter(a=>['arts-night','game-night','trail'].includes(a.id)).map(card).join('');
+ const results=document.getElementById('activity-results');
+ if(results){
+  const query=document.getElementById('search');const interest=document.getElementById('interest');const cost=document.getElementById('cost');const status=document.getElementById('result-count');
+  const preselect=new URLSearchParams(window.location.search).get('category');if(preselect&&Array.from(interest.options).some(o=>o.value===preselect))interest.value=preselect;
+  function render(){const needle=query.value.trim().toLowerCase();const selected=all.filter(a=>(!needle||`${a.name} ${a.category} ${a.teaser}`.toLowerCase().includes(needle))&&(!interest.value||a.category===interest.value)&&(!cost.value||a.cost===cost.value));results.innerHTML=selected.length?selected.map(card).join(''):'<div class="empty"><h3>No matching activities yet.</h3><p>Try clearing a filter or choosing another interest.</p></div>';status.textContent=`Showing ${selected.length} of ${all.length} sample activities`}
+  ['input','change'].forEach(ev=>{query.addEventListener(ev,render);interest.addEventListener(ev,render);cost.addEventListener(ev,render)});
+  document.getElementById('clear-filters').addEventListener('click',()=>{query.value='';interest.value='';cost.value='';history.replaceState(null,'',window.location.pathname);render();query.focus()});render();
+ }
+ const detail=document.getElementById('activity-detail');
+ if(detail){const id=new URLSearchParams(window.location.search).get('id');const a=all.find(a=>a.id===id)||all[0];document.title=`${a.name} | More to Missoula`;detail.innerHTML=`<div class="detail-layout"><article><a class="back-link" href="discover.html">← Back to Discover</a><div class="detail-hero-art" role="img" aria-label="Decorative icon for ${label(a.name)}">${a.icon}</div><p class="eyebrow">${label(a.category)} / Sample activity</p><h1 style="font-size:clamp(2.5rem,5vw,4.6rem)">${label(a.name)}</h1><p class="lead">${label(a.overview)}</p><h2 style="font-size:2rem;margin-top:35px">What to expect</h2><p>${label(a.expect)}</p><h2 style="font-size:2rem;margin-top:35px">Who might enjoy it?</h2><p>${label(a.best)}</p><p class="subtle" style="margin-top:40px"></p></article><aside class="detail-panel" aria-label="Activity essentials"><p class="eyebrow">At a glance</p><dl><dt>Cost</dt><dd>${label(a.costLabel)}</dd><dt>When</dt><dd>${label(a.when)}</dd><dt>Where</dt><dd>${label(a.where)}</dd><dt>Accessibility</dt><dd>${label(a.access)}</dd></dl><p style="margin-top:25px"><a class="button secondary" href="discover.html">Explore more activities</a></p></aside></div>`;}
+})();

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" role="img" aria-label="Games and community">
+  <rect width="500" height="500" rx="20" fill="#e1d6e9"/>
+  <circle cx="55" cy="58" r="110" fill="#fff9f2" opacity=".43"/>
+  <circle cx="460" cy="455" r="160" fill="#fff9f2" opacity=".30"/>
+  <rect x="87" y="92" width="185" height="185" rx="31" transform="rotate(-12 175 175)" fill="#fdf8f2" stroke="#9e87b2" stroke-width="7"/><circle cx="155" cy="140" r="12" fill="#61466e"/><circle cx="210" cy="130" r="12" fill="#61466e"/><circle cx="180" cy="185" r="12" fill="#61466e"/><circle cx="146" cy="226" r="12" fill="#61466e"/><circle cx="211" cy="222" r="12" fill="#61466e"/><circle cx="308" cy="230" r="48" fill="#b0c8b4" stroke="#5a785b" stroke-width="8"/>
+  <rect x="42" y="375" width="416" height="82" rx="14" fill="#fffaf5" opacity=".97"/>
+  <text x="62" y="411" font-family="Georgia,serif" font-size="28" fill="#61466e" font-weight="bold">MORE TO MISSOULA</text>
+  <text x="62" y="440" font-family="Arial,sans-serif" font-size="13" letter-spacing="3" fill="#61466e">GAMES AND COMMUNITY</text>
+</svg>

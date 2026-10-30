@@ -1,0 +1,143 @@
+/* Separate reusable components library. Copy component HTML and all matching CSS rules into future projects. */
+:root {
+  --wine:#6a263e;
+  --paper:#fbf7f2;
+  --sage:#dce4d9;
+  --line:#e3d9d8
+}
+
+* {
+  box-sizing:border-box
+}
+
+body {
+  margin:0;
+  background:var(--paper);
+  font:16px/1.6 Arial,sans-serif;
+  color:#302730
+}
+
+a {
+  color:inherit
+}
+
+img {
+  max-width:100%;
+  display:block
+}
+
+.wrap {
+  width:min(1080px,calc(100% - 40px));
+  margin:auto
+}
+
+.site-nav {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:18px;
+  padding:22px 0;
+  border-bottom:1px solid var(--line)
+}
+
+.site-nav strong {
+  font:700 1.5rem Georgia,serif;
+  color:var(--wine)
+}
+
+.site-nav__links {
+  display:flex;
+  gap:22px;
+  flex-wrap:wrap
+}
+
+.site-nav a {
+  text-decoration:none
+}
+
+.hero-block {
+  padding:75px 0;
+  display:grid;
+  grid-template-columns:1.2fr .8fr;
+  gap:48px;
+  align-items:center
+}
+
+.hero-block h1 {
+  font:400 clamp(3rem,6vw,5rem)/1.04 Georgia,serif;
+  margin:0 0 20px
+}
+
+.hero-block img {
+  border-radius:12px
+}
+
+.button {
+  background:var(--wine);
+  color:white;
+  text-decoration:none;
+  padding:13px 20px;
+  border-radius:99px;
+  display:inline-block;
+  font-weight:700
+}
+
+.card-row {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));
+  gap:18px
+}
+
+.card {
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:12px;
+  overflow:hidden
+}
+
+.card img {
+  width:100%;
+  aspect-ratio:5/3;
+  object-fit:cover
+}
+
+.card__body {
+  padding:22px
+}
+
+.card__body h3 {
+  font:400 1.6rem Georgia,serif;
+  margin:0 0 10px
+}
+
+.card__body a {
+  color:var(--wine);
+  font-weight:700
+}
+
+.contact-banner {
+  background:var(--sage);
+  padding:32px;
+  border-radius:12px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:20px;
+  flex-wrap:wrap;
+  margin:60px 0
+}
+
+.site-footer {
+  background:#351e2a;
+  color:white;
+  padding:35px 0;
+  margin-top:50px
+}
+
+@media(max-width:720px) {
+  .hero-block {
+    grid-template-columns:1fr;
+    padding:45px 0
+  }
+}

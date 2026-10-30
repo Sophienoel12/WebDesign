@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A classroom concept for discovering arts, social activities and outdoor experiences in Missoula.">
+    <title>Discover | More to Missoula</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="scripts/activities.js" defer></script>
+    <script src="scripts/site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a aria-label="More to Missoula, home" class="wordmark" href="index.html">More to Missoula<span>Beyond game day · Around town</span></a>
+        <nav class="nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a aria-current="page" href="discover.html">Discover</a>
+          <a href="about.html">About + Get Listed</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <section class="container page-hero">
+        <p class="eyebrow">Find your next thing</p>
+        <h1>Discover Missoula.</h1>
+        <p class="lead">Start with what interests you. Narrow down the possibilities, then open any activity to see its details.</p>
+      </section>
+      <section class="container discover-layout" aria-label="Activity discovery">
+        <form class="filters" onsubmit="return false" aria-label="Activity filters">
+          <p class="eyebrow">Refine your search</p>
+          <label for="search">Search activities</label>
+          <input id="search" type="search" placeholder="Try art, games, walk…">
+          <label for="interest">Interest</label>
+          <select id="interest">
+            <option value="">All interests</option>
+            <option value="Arts + Culture">Arts + Culture</option>
+            <option value="Games + Social">Games + Social</option>
+            <option value="Outdoors">Outdoors</option>
+          </select>
+          <label for="cost">Cost</label>
+          <select id="cost">
+            <option value="">All example costs</option>
+            <option value="free">Free examples</option>
+            <option value="low">Low-cost examples</option>
+          </select>
+          <button class="button secondary" id="clear-filters" type="button">Clear filters</button>
+          <p class="subtle" style="font-size:.75rem;margin:18px 0 0">Filters work on eight illustrative entries, not a live community database.</p>
+        </form>
+        <div>
+          <p aria-live="polite" class="result-label" id="result-count">Loading results…</p>
+          <div class="activity-grid" id="activity-results"></div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div>
+            <a class="wordmark" href="index.html">More to Missoula<span>There's more out there.</span></a>
+            <p style="max-width:380px;margin:20px 0 0">Designed to help neighbors explore more of their community.</p>
+          </div>
+          <nav class="footer-links" aria-label="Footer navigation">
+            <a href="index.html">Home</a>
+            <a href="discover.html">Discover</a>
+            <a href="about.html">About + Get Listed</a>
+          </nav>
+        </div>
+        <p class="fine-print">Concept by Sophie Guilliams for Client 4: Local Community Life. Educational prototype only. Not affiliated with or endorsed by any city organization.</p>
+      </div>
+    </footer>
+  </body>
+</html>
