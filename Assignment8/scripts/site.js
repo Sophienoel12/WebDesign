@@ -343,3 +343,37 @@
     }
 
 })();
+
+// Event update signup prototype
+
+const newsletterForm =
+    document.getElementById("newsletter-form");
+
+if (newsletterForm) {
+
+    newsletterForm.addEventListener("submit", function (event) {
+
+        event.preventDefault();
+
+        const emailInput =
+            document.getElementById("newsletter-email");
+
+        const message =
+            document.getElementById("newsletter-message");
+
+        if (!emailInput.checkValidity()) {
+
+            emailInput.reportValidity();
+            return;
+
+        }
+
+        message.textContent =
+            "Thanks for your interest! This is a prototype. " +
+            "No email address has been collected.";
+
+        newsletterForm.reset();
+
+    });
+
+}
