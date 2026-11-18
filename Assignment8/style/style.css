@@ -963,3 +963,130 @@ h3 {
     grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr))
   }
 }
+
+/* ========================================
+   ASSIGNMENT 8 - LOCAL PHOTOGRAPHY
+   ======================================== */
+
+
+/* HERO PHOTOGRAPH */
+
+.hero-visual.photo-hero {
+    min-width: 0;
+    min-height: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.hero-photo {
+    display: block;
+    width: 100%;
+    height: 440px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 16px;
+}
+
+
+/* INTEREST CATEGORY PHOTOGRAPHS */
+
+.category-card.photo-card {
+    padding: 0;
+    overflow: hidden;
+    justify-content: flex-start;
+    gap: 0;
+}
+
+.category-photo {
+    display: block;
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.photo-card > div {
+    padding: 26px;
+    flex: 1;
+}
+
+.photo-card h3 {
+    margin-top: 0;
+}
+
+
+/* COMMUNITY FEATURE PHOTOGRAPH */
+
+.feature-art.photo-feature {
+    padding: 0;
+    overflow: hidden;
+    min-width: 0;
+}
+
+.photo-feature img {
+    display: block;
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.photo-feature-copy {
+    padding: 30px;
+}
+
+.photo-feature .huge {
+    display: block;
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    margin-bottom: 16px;
+}
+
+.photo-feature p {
+    margin-bottom: 0;
+}
+
+
+/* KEYBOARD ACCESSIBILITY */
+
+.category-card.photo-card:focus-visible {
+    outline: 3px solid currentColor;
+    outline-offset: 5px;
+}
+
+
+/* TABLET RESPONSIVENESS */
+
+@media (max-width: 890px) {
+
+    .hero-photo {
+        height: 380px;
+    }
+
+}
+
+
+/* MOBILE RESPONSIVENESS */
+
+@media (max-width: 620px) {
+
+    .hero-photo {
+        height: 280px;
+    }
+
+    .category-photo {
+        height: 200px;
+    }
+
+    .photo-card > div {
+        padding: 22px;
+    }
+
+    .photo-feature img {
+        height: 200px;
+    }
+
+    .photo-feature-copy {
+        padding: 24px;
+    }
+
+}
