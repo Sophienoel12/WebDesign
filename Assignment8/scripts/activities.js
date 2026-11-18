@@ -9,3 +9,56 @@ window.SAMPLE_ACTIVITIES = [
  {id:'trail',name:'Easy Outdoor Walk',category:'Outdoors',cost:'free',costLabel:'Free example',icon:'🌿',theme:'sage',teaser:'A slower-paced way to enjoy fresh air and company.',overview:'A sample walking activity listing designed to be more accessible than competitive outdoor sports.',best:'People who want an informal outdoor experience',when:'Meeting time to be confirmed',where:'Trailhead and route to be confirmed',access:'Surface, grade, and distance will be specified by organizer',expect:'Check forecast, route conditions, and organizer guidance before joining.'},
  {id:'skate',name:'Community Ice Skating',category:'Outdoors',cost:'low',costLabel:'Low-cost example',icon:'⛸️',theme:'cream',teaser:'Discover a welcoming seasonal winter activity.',overview:'A demonstration listing for seasonal skating and winter recreation.',best:'Individuals, families, and friends',when:'Seasonal schedule to be confirmed',where:'Rink location to be confirmed',access:'Ice and facility access details pending',expect:'Equipment and fees need to be confirmed before publishing.'}
 ];
+
+// Assignment 8 - Local activity photography
+
+const activityPhotos = {
+
+    "arts-night": {
+        image: "images/umtartmuseum.jpg",
+        alt: "Artwork displayed inside a local art gallery"
+    },
+
+    "theater": {
+        image: "images/thewilma.jpeg",
+        alt: "The historic Wilma Theater in downtown Missoula"
+    },
+
+    "open-studio": {
+        image: "images/umtartmuseum.jpg",
+        alt: "Artwork on display in a gallery"
+    },
+
+    "game-night": {
+        image: "images/games-social.jpeg",
+        alt: "People gathering for a social activity"
+    },
+
+    "arcade": {
+        image: "images/gildarcade.webp",
+        alt: "Arcade games inside Gild in Missoula"
+    },
+
+    "club": {
+        image: "images/bookclub.webp",
+        alt: "People gathering for a book discussion"
+    },
+
+    "trail": {
+        image: "images/clarkfork.jpeg",
+        alt: "The Clark Fork River in Missoula"
+    },
+
+    "skate": {
+        image: "images/iceskating.jpg",
+        alt: "People enjoying ice skating"
+    }
+
+};
+
+window.SAMPLE_ACTIVITIES.forEach(activity => {
+    Object.assign(
+        activity,
+        activityPhotos[activity.id] || {}
+    );
+});
