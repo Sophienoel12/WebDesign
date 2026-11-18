@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" role="img" aria-label="Outdoor exploration">
+  <rect width="500" height="500" rx="20" fill="#cbded4"/>
+  <circle cx="55" cy="58" r="110" fill="#fff9f2" opacity=".43"/>
+  <circle cx="460" cy="455" r="160" fill="#fff9f2" opacity=".30"/>
+  <circle cx="348" cy="134" r="58" fill="#f8eed8"/><path d="M47 297 L172 92 L309 302" fill="#83a4a2"/><path d="M170 96 L220 171 L172 151 L145 175Z" fill="#f8f4ec"/><path d="M174 305 L304 140 L453 305" fill="#5f8b79"/><path d="M306 143 L338 184 L298 172 L268 190Z" fill="#f8f4ec"/><path d="M55 336 Q240 253 460 335 L460 420 L55 420Z" fill="#759a75"/>
+  <rect x="42" y="375" width="416" height="82" rx="14" fill="#fffaf5" opacity=".97"/>
+  <text x="62" y="411" font-family="Georgia,serif" font-size="28" fill="#3a665a" font-weight="bold">MORE TO MISSOULA</text>
+  <text x="62" y="440" font-family="Arial,sans-serif" font-size="13" letter-spacing="3" fill="#3a665a">OUTDOOR EXPLORATION</text>
+</svg>
