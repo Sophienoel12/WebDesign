@@ -1518,3 +1518,13 @@ h3 {
     }
 
 }
+#event-updates .newsletter-note {
+    color: #ffffff !important;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+#event-updates #newsletter-message {
+    color: #ffffff !important;
+    font-size: 0.85rem;
+}
