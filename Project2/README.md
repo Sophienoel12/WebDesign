@@ -1,77 +1,92 @@
-# Assignment7 — More to Missoula (rough client website)
-# More to Missoula
+# Project 2 — More to Missoula
 
-**Client 4: Local Community Life | Web Design Project**  
+**Client:** Client 4 — Local Community Life  
 **Designer:** Sophie Guilliams  
-**Client contact / decision-maker:** Morgan  
-**Live website:** https://sophienoel12.github.io/WebDesign/Assignment7/index.html
+**Client Contact:** Morgan  
+**Live Website:** https://sophienoel12.github.io/WebDesign/Project2/index.html
 
 ## Project Overview
 
-More to Missoula is a website concept designed to help Missoula residents discover things to do around town beyond competitive sports. The goal is to make it easier to find community events, local businesses, arts, games, outdoor activities, and other ways to connect with the city.
+More to Missoula is a community-focused website designed to help Missoula residents discover activities, events, local businesses, and experiences beyond competitive sports. The goal is to create a welcoming and accessible resource for people with different interests, ages, abilities, and budgets.
 
-The website is intended for people of different ages, interests, abilities, and budgets. I want the design to feel welcoming, easy to navigate, and useful for residents who may not know where to look for local activities.
+## Client Feedback and Implementation
 
-## Client Goals
+Throughout this project, I used client feedback to develop and refine the website. My final design incorporates the following recommendations:
 
-Based on the updated Client 4 profile, the website should:
+- Organizing activities by interest.
+- Featuring upcoming seasonal events on the homepage.
+- Creating a New to Missoula section with Date Night, Fun & Games, and Social Hour recommendations.
+- Prioritizing event-update signups.
+- Maintaining the green color palette and typography.
+- Incorporating local photography to create a stronger connection to the Missoula community.
+- Organizing activity information so listings can be manually updated in the future.
 
-- Increase awareness of activities and experiences that receive less attention than competitive sports.
-- Make local activities, events, and businesses easy to discover.
-- Help visitors find options that match their interests, budget, location, and accessibility needs.
-- Provide clear, trustworthy details about activities.
-- Give local organizations a way to share events and opportunities with the community.
-- Support future options such as event updates, volunteering, and business or event submissions.
-
-## Target Audience
-
-Missoula residents of all ages, interests, abilities, and budgets, including people who want to try something new, meet others, explore local businesses, or find affordable things to do.
-
-## Current Website Progress
+## Website Structure
 
 ### Homepage
-- Introduces the More to Missoula concept and its community-focused purpose.
-- Highlights arts and culture, games and social activities, and outdoor experiences.
-- Directs visitors to explore activities on the Discover page.
+Introduces the organization, highlights upcoming events, provides an event-update signup prototype, and encourages visitors to discover activities based on their interests.
 
-### Discover Page
-- Includes activity search and filters for interest and cost.
-- Uses eight sample listings to demonstrate how discovery works.
-- Is currently a prototype, not a live database of Missoula events.
+### Discover
+Allows visitors to explore sample activities using search, interest categories, and cost filters.
 
-### About + Get Listed Page
-- Explains the website's purpose and who it is designed to help.
-- Outlines a possible process for local organizers to submit activities.
-- Notes that listings would be reviewed before publication.
-- Does not yet collect submissions; a live submission link still needs approval.
+### Activity Details
+Provides a consistent layout for individual activities, including descriptions, estimated costs, locations, timing, and accessibility information.
 
-## Design Approach
+### About + Get Listed
+Explains the organization's purpose and outlines how local organizers could submit activities for future publication.
 
-I am creating a welcoming, community-oriented experience with straightforward navigation and clear categories. I want people to be able to explore based on what interests them rather than feeling that they need to be involved in sports or already know what is happening in Missoula.
+## Technical Implementation
 
-Accessibility and usability are priorities. As the project develops, I want to improve the information available for each listing and make discovery options more useful for different visitors.
+### HTML Structure
+Each primary page uses semantic HTML, metadata, a page title, navigation, a main content area, and a footer.
 
-## What Still Needs Work
+### Flexbox and CSS Grid
+Flexbox and Grid are used throughout the website, including:
 
-- Add or refine filters for location and accessibility.
-- Confirm how activities should be organized and featured.
-- Expand or replace sample content with client-approved local listings.
-- Finalize the method for submitting activities or businesses.
-- Add a process for keeping listing details current.
-- Continue testing mobile layout, navigation, and accessibility.
-- Consider future features such as event updates and volunteer opportunities.
+- Header and navigation layout using Flexbox.
+- Homepage hero layout using Flexbox.
+- Interest category cards using CSS Grid.
+- Activity cards using CSS Grid and Flexbox.
+- Discover page layout using CSS Grid.
+- Footer layout using Flexbox.
 
-## Questions for Morgan
+### Component-Based Design
+The website uses reusable components, including navigation, buttons, activity cards, category cards, labels, and footers. These components help maintain consistency across pages and make future updates easier.
 
-1. **Discover page:** Would you prefer activities to be organized mainly by interest (such as arts, gaming, and outdoor recreation) or by location so residents can more easily find things near them?
-2. **Homepage:** Would you rather highlight upcoming seasonal events or feature a variety of local businesses and lesser-known activities throughout the year?
+### Unified Layout
+The homepage combines individual components into a unified layout through consistent typography, colors, spacing, photography, and interactive elements.
 
-These questions focus on the layout and content priorities for my version of the website, without repeating the questions classmates have already asked about submissions, listing maintenance, visual styling, and forms.
+### Accessibility and Responsiveness
+The website incorporates semantic HTML, alternative text, labeled form fields, visible keyboard focus indicators, and responsive layouts. Accessibility and usability remain areas for continued testing and improvement.
 
-## Next Steps
+## Project Reflection
 
-After receiving Morgan's feedback, I plan to refine the Discover page's organization, decide what content to emphasize on the homepage, and continue improving the experience for different community members.
+### 1. What's one HTML, CSS, or publishing skill you feel stronger in now?
+
+I feel much more confident using CSS Grid and Flexbox to create organized layouts. Before this project, I sometimes struggled with positioning elements and keeping everything consistent across different sections. Working with reusable cards, navigation, and responsive layouts helped me better understand how these tools can work together.
+
+### 2. How did it feel to navigate your own site? Is there anything that could make it more intuitive or enjoyable?
+
+I feel that my website is much more welcoming and enjoyable to navigate now, especially after adding real photographs of Missoula. Organizing activities by interest makes it easier for visitors to find something that appeals to them. I would still like to continue improving the mobile experience and make activity discovery even more intuitive.
+
+### 3. Where did you struggle during the project, and how did you address it?
+
+One of my biggest challenges was maintaining a consistent design while adding new features and incorporating client feedback. I wanted each section to feel connected rather than looking like a separate design. I addressed this by reusing components, adjusting spacing, and maintaining consistent colors and typography. I also worked through issues with image sizing, form styling, and text contrast.
+
+### 4. If you had just one more week to work on this project, what would you add, change, or refine?
+
+If I had another week, I would expand the activity listings with more local businesses and community events, conduct additional accessibility testing, and refine the mobile experience. I would also like to connect the event-update signup to a real mailing list and develop an easier way for the client to maintain event information.
+
+### 5. What are you most proud of? Did anything surprise you?
+
+I am most proud of how much the website evolved from the original prototype into something that feels like a genuine community resource. Adding local photography made a bigger difference than I expected because it gave the website more personality and helped establish a connection to Missoula. I also enjoyed seeing how client feedback influenced my design decisions and helped me create something more useful for the intended audience.
+
+## Future Development
+
+The website is an educational prototype. The event-update signup does not currently collect email addresses, and sample activity listings are not a live community database.
+
+Future development would include client-approved activity listings, a functional mailing list, approved submission methods, image permissions and attribution, and ongoing accessibility improvements.
 
 ## Project Status
 
-This is a course prototype for Client 4: Local Community Life. It is not an official City of Missoula website or a live municipal event directory.
+Created for Project 2 in Web Design at the University of Montana. This website is an educational client project and is not an official City of Missoula website.
