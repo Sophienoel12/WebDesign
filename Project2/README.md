@@ -90,3 +90,32 @@ Future development would include client-approved activity listings, a functional
 ## Project Status
 
 Created for Project 2 in Web Design at the University of Montana. This website is an educational client project and is not an official City of Missoula website.
+
+## Photography Sources and Credits
+
+Photography was selected to visually represent Missoula's local businesses, community spaces, and activities.
+
+| Image | Source | Permission Status |
+|---|---|---|
+| bookclub.webp | [Shakespeare & Co.](https://www.shakespeareandco.com/contact) | Unverified |
+| caraspark-aerial.jpeg | [Missoula Downtown](https://www.facebook.com/MissoulaDowntown/) | Unverified |
+| caraspark.jpeg | Original source unknown | Unverified |
+| clarkfork.jpeg | [Destination Missoula via TripAdvisor](https://www.tripadvisor.com/LocationPhotoDirectLink-g45277-i128033991-Missoula_Montana.html) | Unverified |
+| games-social.jpeg | [Missoula Current](https://missoulacurrent.com/wp-content/uploads/2017/07/Puzzled-Pint.jpg) | Unverified |
+| gildarcade.webp | Original source unknown | Unverified |
+| iceskating.jpg | Original source unknown | Unverified |
+| outdoors.jpg | [Destination Missoula](https://blog.destinationmissoula.org/wp-content/uploads/2020/06/waterworks.jpg) | Unverified |
+| roxytheater.jpg | [The Roxy Theater](https://www.theroxytheater.org/wp-content/uploads/2022/06/Roxy-Marquee-Sunny.jpg) | Unverified |
+| thewilma.jpeg | [University of Montana Blog](https://blog.umt.edu/what-to-do-in-missoula) | Unverified |
+| umtartmuseum.jpg | [University of Montana Marketing Assets](https://images.apps.umt.edu/storage/umt/center/600/200/marketing-assets/images/site-banner-images/mmac.jpg) | Unverified |
+
+### Image Usage
+
+More to Missoula is a noncommercial educational website
+created for a University of Montana Web Design course.
+
+The listed organizations are identified as image sources,
+not necessarily the original photographers or copyright owners.
+Individual photographer credits and reuse permissions have not yet been confirmed.
+
+Photographs will require appropriate permission, licensing, or replacement before any official launch.
